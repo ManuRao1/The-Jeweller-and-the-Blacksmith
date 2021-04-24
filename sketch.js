@@ -9,22 +9,22 @@ var woodenBarrelImg, woodenCrateImg, BucketImg;
 var sword, swordImg, shield, shieldImg
 
 function preload(){
-  wellImage = loadImage("Images/well.png")
-  coinImage = loadAnimation("Images/Coin_01.png","Images/Coin_02.png","Images/Coin_03.png","Images/Coin_04.png",
-  "Images/Coin_05.png","Images/Coin_06.png")
-  ladder = loadImage("Images/Ladder_01.png")
-  doorImage = loadImage("Images/Wide_Door_02.png")
-  ladder2 = loadImage("Images/Ladder_02.png")
-  chestLocked = loadImage("Images/Chest_01_Locked.png")
-  chestUnlocked = loadImage("Images/Chest_01_Unlocked.png")
-  player1Image = loadImage("Images/player1.png")
-  player2Image = loadImage("Images/player_2.png")
-  sageImage = loadImage("Images/Soldier.png")
-  woodenBarrelImg = loadImage("Images/Wooden_barrel.png")
-  woodenCrateImg = loadImage("Images/Wooden_crate.png")
-  BucketImg = loadImage("Images/Bucket.png")
-  swordImg = loadImage("Images/Decor_Sword.png")
-  shieldImg = loadImage("Images/Decor_Shield.png")
+ wellImage = loadImage("well.png")
+  coinImage = loadAnimation("Coin_01.png","Coin_02.png","Coin_03.png","Coin_04.png",
+  "Coin_05.png","Coin_06.png")
+  ladder = loadImage("Ladder_01.png")
+  doorImage = loadImage("Wide_Door_02.png")
+  ladder2 = loadImage("Ladder_02.png")
+  chestLocked = loadImage("Chest_01_Locked.png")
+  chestUnlocked = loadImage("Chest_01_Unlocked.png")
+  player1Image = loadImage("player1.png")
+  player2Image = loadImage("player_2.png")
+  sageImage = loadImage("Soldier.png")
+  woodenBarrelImg = loadImage("Wooden_barrel.png")
+  woodenCrateImg = loadImage("Wooden_crate.png")
+  BucketImg = loadImage("Bucket.png")
+  swordImg = loadImage("Decor_Sword.png")
+  shieldImg = loadImage("Decor_Shield.png")
 }
 
 function setup() {
